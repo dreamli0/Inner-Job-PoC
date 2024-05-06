@@ -22,7 +22,7 @@ jobs:
         id: mod_id
         uses: dreamli0/my-action@main
         with:
-          hi-there: ${{ secrets.AWS_TOKEN }}
+          hi-there: ${{ secrets.AWS_SECRETS }}
           
       - name: Action 2
         id: action_2
